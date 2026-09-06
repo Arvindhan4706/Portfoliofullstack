@@ -1,0 +1,376 @@
+- generic [active] [ref=f4e1]:
+  - navigation [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "MECELFAB" [ref=f4e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f4e6]:
+        - link "Home" [ref=f4e7] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=f4e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f4e9] [cursor=pointer]:
+          - /url: /services
+        - link "Industries" [ref=f4e10] [cursor=pointer]:
+          - /url: /industries
+        - link "Projects" [ref=f4e11] [cursor=pointer]:
+          - /url: /projects
+        - link "Contact" [ref=f4e12] [cursor=pointer]:
+          - /url: /contact
+        - link "Request a Service" [ref=f4e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f4e14]:
+    - generic [ref=f4e15]:
+      - img "MECELFAB Industrial Operations" [ref=f4e17]
+      - generic: MECELFAB
+      - generic [ref=f4e20]:
+        - generic [ref=f4e21]: Est. India
+        - generic [ref=f4e24]:
+          - generic [ref=f4e25]: ISO 9001:2015
+          - generic [ref=f4e27]: ISO 45001:2018
+      - generic [ref=f4e28]:
+        - heading "MECELFAB" [level=1] [ref=f4e30]
+        - generic [ref=f4e31]:
+          - generic [ref=f4e32]: Industrial Solutions Pvt. Ltd.
+          - generic [ref=f4e34]: Precision Engineering Excellence
+        - paragraph [ref=f4e35]: Industrial erection, heavy fabrication, generator services, hydraulic & pneumatic overhauling, AMC, and equipment rental — delivered with zero-compromise precision across India.
+        - generic [ref=f4e37]:
+          - link "Get a Free Quote" [ref=f4e38] [cursor=pointer]:
+            - /url: /contact
+          - link "Our Services" [ref=f4e45] [cursor=pointer]:
+            - /url: /services
+        - generic [ref=f4e53]:
+          - generic [ref=f4e54]:
+            - generic [ref=f4e55]: 8 Industrial Services
+            - generic [ref=f4e56]: End-to-End Capability
+          - generic [ref=f4e57]:
+            - generic [ref=f4e58]: Pan-India Operations
+            - generic [ref=f4e59]: Project Site Coverage
+          - generic [ref=f4e60]:
+            - generic [ref=f4e61]: ISO 9001 Certified
+            - generic [ref=f4e62]: Quality Management
+          - generic [ref=f4e63]:
+            - generic [ref=f4e64]: Zero-Compromise
+            - generic [ref=f4e65]: Safety-Led Execution
+      - generic [ref=f4e67]:
+        - generic [ref=f4e68]: Fabrication
+        - generic [ref=f4e69]: ·
+        - generic [ref=f4e70]: Erection
+        - generic [ref=f4e71]: ·
+        - generic [ref=f4e72]: Generator Services
+        - generic [ref=f4e73]: ·
+        - generic [ref=f4e74]: Hydraulic Systems
+        - generic [ref=f4e75]: ·
+        - generic [ref=f4e76]: AMC
+        - generic [ref=f4e77]: ·
+        - generic [ref=f4e78]: Rentals
+    - generic [ref=f4e82]:
+      - generic [ref=f4e83]:
+        - generic [ref=f4e84]: Quality Management
+        - generic [ref=f4e90]:
+          - generic [ref=f4e91]: ISO 9001:2015
+          - generic [ref=f4e92]: Certified Operations
+      - generic [ref=f4e93]:
+        - generic [ref=f4e94]: Safety Standard
+        - generic [ref=f4e100]:
+          - generic [ref=f4e101]: ISO 45001:2018
+          - generic [ref=f4e102]: Zero-Harm Culture
+      - generic [ref=f4e103]:
+        - generic [ref=f4e104]: Precision Engineering
+        - generic [ref=f4e118]:
+          - generic [ref=f4e119]: End-to-End
+          - generic [ref=f4e120]: Fabrication & Erection
+      - generic [ref=f4e121]:
+        - generic [ref=f4e122]: Project Delivery
+        - generic [ref=f4e128]:
+          - generic [ref=f4e129]: On-Time
+          - generic [ref=f4e130]: Commissioning Guarantee
+    - generic [ref=f4e133]:
+      - generic [ref=f4e134]:
+        - generic [ref=f4e135]:
+          - generic [ref=f4e136]: Our Capabilities
+          - heading "Eight Disciplines. One Partner." [level=2] [ref=f4e139]: Eight Disciplines.One Partner.
+        - link "View All Services" [ref=f4e140] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f4e143]:
+        - generic [ref=f4e145]:
+          - generic [ref=f4e146]: "01"
+          - generic [ref=f4e156]:
+            - heading "Industrial Erection" [level=3] [ref=f4e157]
+            - paragraph [ref=f4e158]: Expert erection of heavy industrial machinery.
+          - link [ref=f4e160] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e164]:
+          - generic [ref=f4e165]: "02"
+          - generic [ref=f4e173]:
+            - heading "Industrial Fabrication" [level=3] [ref=f4e174]
+            - paragraph [ref=f4e175]: Precision metal fabrication for industrial needs.
+          - link [ref=f4e177] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e181]:
+          - generic [ref=f4e182]: "03"
+          - generic [ref=f4e191]:
+            - heading "Hydraulic and Pneumatic System Overhauling" [level=3] [ref=f4e192]
+            - paragraph [ref=f4e193]: Complete system diagnostics and overhauling.
+          - link [ref=f4e195] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e199]:
+          - generic [ref=f4e200]: "04"
+          - generic [ref=f4e208]:
+            - heading "Industrial Generator Spare Parts" [level=3] [ref=f4e209]
+            - paragraph [ref=f4e210]: Genuine spare parts for industrial generators.
+          - link [ref=f4e212] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e216]:
+          - generic [ref=f4e217]: "05"
+          - generic [ref=f4e226]:
+            - heading "Annual Maintenance Contract (AMC)" [level=3] [ref=f4e227]
+            - paragraph [ref=f4e228]: Comprehensive annual maintenance services.
+          - link [ref=f4e230] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e234]:
+          - generic [ref=f4e235]: "06"
+          - generic [ref=f4e243]:
+            - heading "Industrial Generator Rental" [level=3] [ref=f4e244]
+            - paragraph [ref=f4e245]: Reliable industrial generators for rent.
+          - link [ref=f4e247] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e251]:
+          - generic [ref=f4e252]: "07"
+          - generic [ref=f4e262]:
+            - heading "Air Compressor Rental" [level=3] [ref=f4e263]
+            - paragraph [ref=f4e264]: High-capacity air compressors for rent.
+          - link [ref=f4e266] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f4e270]:
+          - generic [ref=f4e271]: "08"
+          - generic [ref=f4e280]:
+            - heading "Turbocharger Services" [level=3] [ref=f4e281]
+            - paragraph [ref=f4e282]: Repair and maintenance of industrial turbochargers.
+          - link [ref=f4e284] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=f4e288]:
+      - generic [ref=f4e289]:
+        - generic [ref=f4e290]: How We Work
+        - heading "ENGINEERING WORKFLOW" [level=2] [ref=f4e291]
+      - generic [ref=f4e292]:
+        - generic [ref=f4e293]:
+          - generic: "01"
+          - generic [ref=f4e294]:
+            - generic [ref=f4e295]: "01"
+            - heading "REQUIREMENT" [level=3] [ref=f4e296]
+            - paragraph [ref=f4e297]: Understand the service/equipment requirement and initial constraints.
+        - generic [ref=f4e298]:
+          - generic: "02"
+          - generic [ref=f4e299]:
+            - generic [ref=f4e300]: "02"
+            - heading "INSPECTION" [level=3] [ref=f4e301]
+            - paragraph [ref=f4e302]: Assess the system/equipment on-site or through technical documentation.
+        - generic [ref=f4e303]:
+          - generic: "03"
+          - generic [ref=f4e304]:
+            - generic [ref=f4e305]: "03"
+            - heading "SOLUTION" [level=3] [ref=f4e306]
+            - paragraph [ref=f4e307]: Determine the appropriate engineering service approach.
+        - generic [ref=f4e308]:
+          - generic: "04"
+          - generic [ref=f4e309]:
+            - generic [ref=f4e310]: "04"
+            - heading "EXECUTION" [level=3] [ref=f4e311]
+            - paragraph [ref=f4e312]: Perform the required work with precision and compliance.
+        - generic [ref=f4e313]:
+          - generic: "05"
+          - generic [ref=f4e314]:
+            - generic [ref=f4e315]: "05"
+            - heading "TESTING" [level=3] [ref=f4e316]
+            - paragraph [ref=f4e317]: Rigorous testing to verify completed work and performance.
+        - generic [ref=f4e318]:
+          - generic: "06"
+          - generic [ref=f4e319]:
+            - generic [ref=f4e320]: "06"
+            - heading "HANDOVER" [level=3] [ref=f4e321]
+            - paragraph [ref=f4e322]: Complete the service and provide necessary documentation.
+    - generic [ref=f4e324]:
+      - generic [ref=f4e325]:
+        - generic [ref=f4e326]: Markets We Serve
+        - heading "I n d u s t r i e s" [level=2] [ref=f4e327]:
+          - generic [ref=f4e328]: I
+          - generic [ref=f4e330]: "n"
+          - generic [ref=f4e332]: d
+          - generic [ref=f4e334]: u
+          - generic [ref=f4e336]: s
+          - generic [ref=f4e338]: t
+          - generic [ref=f4e340]: r
+          - generic [ref=f4e342]: i
+          - generic [ref=f4e344]: e
+          - generic [ref=f4e346]: s
+      - generic [ref=f4e348]:
+        - generic [ref=f4e349]:
+          - generic [ref=f4e350]:
+            - img "Industrial Manufacturing industry" [ref=f4e351]
+            - generic [ref=f4e352]: "01"
+          - generic [ref=f4e353]:
+            - heading "Industrial Manufacturing" [level=3] [ref=f4e354]
+            - paragraph [ref=f4e355]: Precision fabrication, machine foundations, automation and industrial infrastructure.
+            - generic [ref=f4e356]:
+              - generic [ref=f4e357]: Equipment Erection
+              - generic [ref=f4e358]: Machine Foundations
+              - generic [ref=f4e359]: Structural Fabrication
+            - link "Explore industrial manufacturing Projects" [ref=f4e360] [cursor=pointer]:
+              - /url: /projects
+        - generic [ref=f4e361]:
+          - generic [ref=f4e362]:
+            - img "Power & Energy industry" [ref=f4e363]
+            - generic [ref=f4e364]: "03"
+          - generic [ref=f4e365]:
+            - heading "Power & Energy" [level=3] [ref=f4e366]
+            - paragraph [ref=f4e367]: Generator installations, spare parts and power systems.
+            - generic [ref=f4e368]:
+              - generic [ref=f4e369]: Generator Services
+              - generic [ref=f4e370]: Spare Parts
+              - generic [ref=f4e371]: Temporary Power
+            - link "Explore power & energy Projects" [ref=f4e372] [cursor=pointer]:
+              - /url: /projects
+        - generic [ref=f4e373]:
+          - generic [ref=f4e374]:
+            - img "Industrial Maintenance industry" [ref=f4e375]
+            - generic [ref=f4e376]: "04"
+          - generic [ref=f4e377]:
+            - heading "Industrial Maintenance" [level=3] [ref=f4e378]
+            - paragraph [ref=f4e379]: Overhauling and annual maintenance contracts for mechanical systems.
+            - generic [ref=f4e380]:
+              - generic [ref=f4e381]: Hydraulic Systems
+              - generic [ref=f4e382]: Pneumatic Systems
+              - generic [ref=f4e383]: Turbocharger Servicing
+              - generic [ref=f4e384]: AMC Support
+            - link "Explore industrial maintenance Projects" [ref=f4e385] [cursor=pointer]:
+              - /url: /projects
+        - generic [ref=f4e386]:
+          - generic [ref=f4e387]:
+            - img "Commercial / Temporary Power industry" [ref=f4e388]
+            - generic [ref=f4e389]: "05"
+          - generic [ref=f4e390]:
+            - heading "Commercial / Temporary Power" [level=3] [ref=f4e391]
+            - paragraph [ref=f4e392]: Rental solutions for generators and air compressors.
+            - generic [ref=f4e393]:
+              - generic [ref=f4e394]: Generator Rental
+              - generic [ref=f4e395]: Air Compressor Rental
+              - generic [ref=f4e396]: Event Power
+            - link "Explore commercial / temporary power Projects" [ref=f4e397] [cursor=pointer]:
+              - /url: /projects
+    - generic [ref=f4e399]:
+      - generic [ref=f4e400]:
+        - generic [ref=f4e401]: Our Portfolio
+        - heading "Featured Projects" [level=2] [ref=f4e402]
+        - paragraph [ref=f4e403]: Explore our recently executed contracts. Filter projects by engineering discipline to inspect our work quality and execution compliance.
+      - generic [ref=f4e404]:
+        - button "All" [ref=f4e405] [cursor=pointer]
+        - button "Erection" [ref=f4e406] [cursor=pointer]
+        - button "Fabrication" [ref=f4e407] [cursor=pointer]
+        - button "Hydraulic & Pneumatic" [ref=f4e408] [cursor=pointer]
+        - button "Generator Services" [ref=f4e409] [cursor=pointer]
+        - button "AMC" [ref=f4e410] [cursor=pointer]
+        - button "Rental" [ref=f4e411] [cursor=pointer]
+        - button "Turbocharger" [ref=f4e412] [cursor=pointer]
+      - generic [ref=f4e413]:
+        - heading "PROJECTS COMING SOON" [level=3] [ref=f4e414]
+        - paragraph [ref=f4e415]: Our project portfolio is currently being updated with our latest industrial executions. Check back soon for verified case studies.
+    - generic [ref=f4e418]:
+      - generic [ref=f4e419]:
+        - generic [ref=f4e420]: Why MECELFAB
+        - heading "Built on Trust. Driven by Results." [level=2] [ref=f4e423]: Built on Trust.Driven by Results.
+        - paragraph [ref=f4e424]: We deliver on every commitment — from precision fabrication and safe erection to rapid-response maintenance and flexible equipment rental.
+        - link "Work With Us" [ref=f4e425] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f4e428]:
+        - generic [ref=f4e429]:
+          - generic [ref=f4e430]: "01"
+          - generic [ref=f4e436]:
+            - heading "Industrial Experience" [level=3] [ref=f4e437]
+            - paragraph [ref=f4e438]: Decades of hands-on industrial service capability across heavy manufacturing and power sectors.
+        - generic [ref=f4e439]:
+          - generic [ref=f4e440]: "02"
+          - generic [ref=f4e445]:
+            - heading "Mechanical Expertise" [level=3] [ref=f4e446]
+            - paragraph [ref=f4e447]: Deep expertise in fabrication, precision erection and end-to-end mechanical system delivery.
+        - generic [ref=f4e448]:
+          - generic [ref=f4e449]: "03"
+          - generic [ref=f4e454]:
+            - heading "Equipment Support" [level=3] [ref=f4e455]
+            - paragraph [ref=f4e456]: Complete generator and compressor rental, spare-part supply and breakdown response.
+        - generic [ref=f4e457]:
+          - generic [ref=f4e458]: "04"
+          - generic [ref=f4e463]:
+            - heading "Planned Maintenance" [level=3] [ref=f4e464]
+            - paragraph [ref=f4e465]: Structured AMC programs keep equipment running efficiently, minimising unplanned downtime.
+    - generic [ref=f4e467]:
+      - heading "WHAT DO YOU NEED HELP WITH?" [level=2] [ref=f4e469]
+      - generic [ref=f4e470]:
+        - link "I need industrial erection." [ref=f4e471] [cursor=pointer]:
+          - /url: /contact?service=industrial-erection
+        - link "I need industrial fabrication." [ref=f4e476] [cursor=pointer]:
+          - /url: /contact?service=industrial-fabrication
+        - link "I need hydraulic and pneumatic system overhauling." [ref=f4e481] [cursor=pointer]:
+          - /url: /contact?service=hydraulic-pneumatic-overhauling
+        - link "I need industrial generator spare parts." [ref=f4e486] [cursor=pointer]:
+          - /url: /contact?service=generator-spare-parts
+        - link "I need annual maintenance contract (amc)." [ref=f4e491] [cursor=pointer]:
+          - /url: /contact?service=amc
+        - link "I need industrial generator rental." [ref=f4e496] [cursor=pointer]:
+          - /url: /contact?service=generator-rental
+        - link "I need air compressor rental." [ref=f4e501] [cursor=pointer]:
+          - /url: /contact?service=air-compressor-rental
+        - link "I need turbocharger services." [ref=f4e506] [cursor=pointer]:
+          - /url: /contact?service=turbocharger-services
+  - contentinfo [ref=f4e511]:
+    - generic [ref=f4e513]:
+      - generic [ref=f4e514]:
+        - generic [ref=f4e515]:
+          - generic [ref=f4e516]: MECELFAB
+          - paragraph [ref=f4e518]: Engineering reliable solutions for industrial growth. Serving fabrication, erection, power distribution, and heavy industrial utility setups across India.
+          - generic [ref=f4e519]:
+            - link [ref=f4e520] [cursor=pointer]:
+              - /url: https://linkedin.com
+            - link [ref=f4e525] [cursor=pointer]:
+              - /url: https://twitter.com
+        - generic [ref=f4e528]:
+          - heading "Navigation" [level=4] [ref=f4e529]
+          - list [ref=f4e530]:
+            - listitem [ref=f4e531]:
+              - link "About Company" [ref=f4e532] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e533]:
+              - link "Core Services" [ref=f4e534] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f4e535]:
+              - link "Industries We Serve" [ref=f4e536] [cursor=pointer]:
+                - /url: /industries
+            - listitem [ref=f4e537]:
+              - link "Featured Projects" [ref=f4e538] [cursor=pointer]:
+                - /url: /projects
+        - generic [ref=f4e539]:
+          - heading "Services" [level=4] [ref=f4e540]
+          - list [ref=f4e541]:
+            - listitem [ref=f4e542]:
+              - link "Industrial Fabrication" [ref=f4e543] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f4e544]:
+              - link "Equipment Erection" [ref=f4e545] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f4e546]:
+              - link "Electrical Systems" [ref=f4e547] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f4e548]:
+              - link "Hydraulic Systems" [ref=f4e549] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=f4e550]:
+          - heading "Regulatory" [level=4] [ref=f4e551]
+          - generic [ref=f4e552]:
+            - generic [ref=f4e553]:
+              - generic [ref=f4e554]: ISO 9001:2015
+              - generic [ref=f4e555]: Quality Management Certified
+            - generic [ref=f4e556]:
+              - generic [ref=f4e557]: ISO 45001:2018
+              - generic [ref=f4e558]: Occupational Health & Safety
+      - generic [ref=f4e559]:
+        - generic [ref=f4e560]: © 2026 MECELFAB INDUSTRIAL SOLUTIONS PRIVATE LIMITED. All rights reserved.
+        - button "Scroll to top" [ref=f4e561] [cursor=pointer]

@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zinc-50: #fafafa;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #52525b;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+  --color-zinc-950: #09090b;
+
+  --color-accent: #f4f4f5; /* Using zinc-100 as the restrained accent for dark mode */
+}
+
+:root {
+  --background: var(--color-zinc-50);
+  --foreground: var(--color-zinc-950);
+  --border: var(--color-zinc-200);
+  
+  --muted: var(--color-zinc-100);
+  --muted-foreground: var(--color-zinc-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--color-zinc-950);
+    --foreground: var(--color-zinc-50);
+    --border: var(--color-zinc-800);
+    
+    --muted: var(--color-zinc-900);
+    --muted-foreground: var(--color-zinc-400);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix select box text color in all themes */
+select {
+  color: var(--foreground);
+  background-color: var(--muted);
+}
+
+select option {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

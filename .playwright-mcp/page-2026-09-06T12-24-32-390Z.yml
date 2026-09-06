@@ -1,0 +1,98 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - generic [ref=f3e5]:
+        - generic [ref=f3e6]:
+          - link "+ தமிழ்நாடு அரசு • NHM-TN TN SmartCare" [ref=f3e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f3e8]: +
+            - generic [ref=f3e9]:
+              - generic [ref=f3e10]: தமிழ்நாடு அரசு • NHM-TN
+              - generic [ref=f3e11]: TN SmartCare
+          - navigation [ref=f3e12]:
+            - link "Find Doctor (மருத்துவர்)" [ref=f3e13] [cursor=pointer]:
+              - /url: /
+            - link "Live Queue (நேரலை வரிசை)" [ref=f3e14] [cursor=pointer]:
+              - /url: /queue
+            - link "Lab Tests (பரிசோதனைகள்)" [ref=f3e15] [cursor=pointer]:
+              - /url: /lab-tests
+            - link "108 Emergency (108 உதவி)" [ref=f3e16] [cursor=pointer]:
+              - /url: /emergency
+            - link "My OPD Slips (புறநோயாளி சீட்டு)" [ref=f3e17] [cursor=pointer]:
+              - /url: /appointments
+        - generic [ref=f3e18]:
+          - link "108 அவசரம்" [ref=f3e19] [cursor=pointer]:
+            - /url: /emergency
+          - link "Portals (RBAC)" [ref=f3e25] [cursor=pointer]:
+            - /url: /portal-select
+          - link "Citizen Login (உள்நுழை)" [ref=f3e31] [cursor=pointer]:
+            - /url: /login/otp
+    - main [ref=f3e32]:
+      - generic [ref=f3e33]:
+        - generic [ref=f3e34]: Role-Based Access Control (RBAC)
+        - heading "Please Sign In to Access TN SmartCare" [level=1] [ref=f3e39]
+        - paragraph [ref=f3e40]: முதலில் உங்கள் பயனர் அல்லது பணியாளர் கணக்கில் உள்நுழையவும்
+        - paragraph [ref=f3e41]: Authentication is required to access the application. Select your operational role below to sign in with your Mobile OTP or hospital staff credentials.
+      - generic [ref=f3e42]:
+        - generic [ref=f3e43]:
+          - generic [ref=f3e44]:
+            - generic [ref=f3e45]: PATIENT
+            - generic [ref=f3e53]:
+              - heading "Citizen & Patient Portal" [level=2] [ref=f3e54]
+              - paragraph [ref=f3e55]: பொதுமக்கள் மற்றும் நோயாளர் தளம்
+              - paragraph [ref=f3e56]: Book free OPD slots, monitor live queue remotely, download digital prescriptions, and check lab results.
+          - link "Enter Portal" [ref=f3e58] [cursor=pointer]:
+            - /url: /login/otp
+        - generic [ref=f3e62]:
+          - generic [ref=f3e63]:
+            - generic [ref=f3e64]: DOCTOR
+            - generic [ref=f3e71]:
+              - heading "Civil Surgeon & Doctor Desk" [level=2] [ref=f3e72]
+              - paragraph [ref=f3e73]: அரசு மருத்துவர் ஆலோசனை தளம்
+              - paragraph [ref=f3e74]: Atomic queue calling, digital EMR, structured generic drug prescriptions, lab orders, and delay alerts.
+          - link "Enter Portal" [ref=f3e76] [cursor=pointer]:
+            - /url: /doctor/login
+        - generic [ref=f3e80]:
+          - generic [ref=f3e81]:
+            - generic [ref=f3e82]: RECEPTIONIST
+            - generic [ref=f3e89]:
+              - heading "OPD Receptionist & Walk-in Desk" [level=2] [ref=f3e90]
+              - paragraph [ref=f3e91]: புறநோயாளி பதிவு மற்றும் சீட்டு கவுண்டர்
+              - paragraph [ref=f3e92]: Instant walk-in registration, thermal POS slip printing, physical arrival check-in, and triage assist.
+          - link "Enter Portal" [ref=f3e94] [cursor=pointer]:
+            - /url: /receptionist/login
+        - generic [ref=f3e98]:
+          - generic [ref=f3e99]:
+            - generic [ref=f3e100]: HOSPITAL_ADMIN
+            - generic [ref=f3e106]:
+              - heading "Hospital Facility Administration" [level=2] [ref=f3e107]
+              - paragraph [ref=f3e108]: மருத்துவமனை நிர்வாக ஆணையரகம்
+              - paragraph [ref=f3e109]: ICU & Oxygen bed allocation, TNMSC pharmacy stock thresholds, staff management, and audit trails.
+          - link "Enter Portal" [ref=f3e111] [cursor=pointer]:
+            - /url: /admin/login
+        - generic [ref=f3e115]:
+          - generic [ref=f3e116]:
+            - generic [ref=f3e117]: STATE_ADMIN
+            - generic [ref=f3e122]:
+              - heading "Statewide Health Directorate HUD" [level=2] [ref=f3e123]
+              - paragraph [ref=f3e124]: மாநில மக்கள் நல்வாழ்வுத்துறை தலைமை ஆணையரகம்
+              - paragraph [ref=f3e125]: 38-district live monitoring, real-time footfall aggregation, 108 emergency fleet tracking, and health metrics.
+          - link "Enter Portal" [ref=f3e127] [cursor=pointer]:
+            - /url: /govt-admin/login
+    - contentinfo [ref=f3e131]:
+      - generic [ref=f3e132]:
+        - generic [ref=f3e133]:
+          - text: HospitalCare
+          - paragraph [ref=f3e134]: © 2026 HospitalCare Smart Queue Management System. All rights reserved.
+        - generic [ref=f3e135]:
+          - link "Support Center" [ref=f3e136] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact Us" [ref=f3e137] [cursor=pointer]:
+            - /url: "#"
+          - link "Emergency Numbers" [ref=f3e138] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy Policy" [ref=f3e139] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms of Service" [ref=f3e140] [cursor=pointer]:
+            - /url: "#"
+  - alert [ref=f3e141]
