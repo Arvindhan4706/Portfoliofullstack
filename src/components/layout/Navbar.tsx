@@ -18,13 +18,34 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener("keydown", handleEscape);
+    return () => window.removeEventListener("keydown", handleEscape);
+  }, [mobileMenuOpen]);
+
   const navLinks = [
     { name: "Work", href: "#work" },
     { name: "Services", href: "#services" },
+    { name: "Process", href: "#process" },
     { name: "About", href: "#about" },
   ];
 
-  const toggleMenu = () => setMobileMenuOpen(!mobileMenuOpen);
   const closeMenu = () => setMobileMenuOpen(false);
 
   return (
@@ -75,8 +96,9 @@ export const Navbar = () => {
         {/* Mobile Menu Toggle */}
         <button
           className="md:hidden p-2 z-50 text-foreground"
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileMenuOpen}
         >
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -90,6 +112,9 @@ export const Navbar = () => {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.2 }}
               className="absolute top-0 left-0 right-0 h-screen bg-background border-b border-border flex flex-col pt-24 px-6 md:hidden"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Mobile navigation"
             >
               <nav className="flex flex-col gap-6 text-2xl font-medium">
                 {navLinks.map((link) => (

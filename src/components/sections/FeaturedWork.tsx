@@ -3,8 +3,11 @@
 import { projects } from "@/data/projects";
 import { ProjectCard } from "@/components/ui/ProjectCard";
 import { motion } from "framer-motion";
+import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 
 export const FeaturedWork = () => {
+  const prefersReduced = usePrefersReducedMotion();
+
   return (
     <section id="work" className="py-24 md:py-32">
       <div className="container mx-auto px-6">
@@ -19,7 +22,7 @@ export const FeaturedWork = () => {
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              initial={{ opacity: 0, y: 20 }}
+              initial={prefersReduced ? false : { opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: Math.min(index * 0.1, 0.3) }}

@@ -13,14 +13,14 @@
   --color-zinc-900: #18181b;
   --color-zinc-950: #09090b;
 
-  --color-accent: #f4f4f5; /* Using zinc-100 as the restrained accent for dark mode */
+  --color-accent: #f4f4f5;
 }
 
 :root {
   --background: var(--color-zinc-50);
   --foreground: var(--color-zinc-950);
   --border: var(--color-zinc-200);
-  
+
   --muted: var(--color-zinc-100);
   --muted-foreground: var(--color-zinc-500);
 }
@@ -30,7 +30,7 @@
     --background: var(--color-zinc-950);
     --foreground: var(--color-zinc-50);
     --border: var(--color-zinc-800);
-    
+
     --muted: var(--color-zinc-900);
     --muted-foreground: var(--color-zinc-400);
   }
@@ -39,7 +39,6 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -48,7 +47,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Fix select box text color in all themes */
+/* Focus states for accessibility */
+:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 2px;
+}
+
+/* Select styling */
 select {
   color: var(--foreground);
   background-color: var(--muted);
@@ -57,6 +62,26 @@ select {
 select option {
   background-color: var(--background);
   color: var(--foreground);
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
 }
 
 @layer utilities {

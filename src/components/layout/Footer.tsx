@@ -2,7 +2,7 @@ import Link from "next/link";
 import { siteConfig } from "@/data/site";
 import { Mail, MessageCircle } from "lucide-react";
 
-const LinkedinIcon = ({ size = 16, className = "" }) => (
+const LinkedinIcon = ({ size = 16, className = "" }: { size?: number; className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
     <rect x="2" y="9" width="4" height="12"></rect>
@@ -29,6 +29,7 @@ export const Footer = () => {
             <nav className="flex flex-col gap-3 text-sm text-muted-foreground">
               <Link href="#work" className="hover:text-foreground transition-colors w-fit">Work</Link>
               <Link href="#services" className="hover:text-foreground transition-colors w-fit">Services</Link>
+              <Link href="#process" className="hover:text-foreground transition-colors w-fit">Process</Link>
               <Link href="#about" className="hover:text-foreground transition-colors w-fit">About</Link>
             </nav>
           </div>
@@ -36,7 +37,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold tracking-wide uppercase text-foreground">Contact</h4>
             <div className="flex flex-col gap-3 text-sm text-muted-foreground">
-              <a 
+              <a
                 href={siteConfig.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -45,14 +46,14 @@ export const Footer = () => {
                 <LinkedinIcon size={16} />
                 LinkedIn
               </a>
-              <a 
+              <a
                 href={`mailto:${siteConfig.email}`}
                 className="flex items-center gap-2 hover:text-foreground transition-colors w-fit"
               >
                 <Mail size={16} />
                 Email
               </a>
-              <a 
+              <a
                 href={siteConfig.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"

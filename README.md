@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arvindhan SM — Freelance Full-Stack Web Developer
 
-## Getting Started
+Personal portfolio website showcasing projects, services and capabilities for potential clients.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+- **Database:** Supabase (PostgreSQL)
+- **Validation:** Zod
+- **Deployment:** Vercel
+
+## Features
+
+- Responsive design (mobile-first)
+- Dark/light mode (system preference)
+- Contact form with Zod validation and rate limiting
+- Project showcase with status badges
+- SEO optimized (metadata, sitemap, robots.txt, structured data)
+- Accessibility-focused (focus states, ARIA labels, reduced motion)
+- Animated value strip marquee
+- Mobile navigation with keyboard support
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── api/contact/route.ts    # Contact form API
+│   ├── globals.css              # Tailwind theme + custom CSS
+│   ├── layout.tsx               # Root layout with SEO
+│   ├── page.tsx                 # Homepage
+│   ├── robots.ts                # Robots.txt
+│   └── sitemap.ts               # Sitemap
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx           # Navigation with mobile menu
+│   │   └── Footer.tsx           # Footer with social links
+│   ├── sections/
+│   │   ├── Hero.tsx             # Hero section
+│   │   ├── FeaturedWork.tsx     # Project listing
+│   │   ├── Services.tsx         # Services grid
+│   │   ├── Process.tsx          # Process timeline
+│   │   ├── WhyWorkWithMe.tsx    # Value proposition
+│   │   ├── About.tsx            # About section
+│   │   ├── Contact.tsx          # Contact form
+│   │   └── ValueStrip.tsx       # Animated ticker
+│   └── ui/
+│       └── ProjectCard.tsx      # Project card component
+└── data/
+    ├── projects.ts              # Project data + types
+    └── site.ts                  # Site configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a `.env.local` file:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+SUPABASE_URL=your_supabase_url
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+```
 
-## Learn More
+## Development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Production Build
 
-## Deploy on Vercel
+```bash
+npm run build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The `/api/contact` endpoint:
+
+- Validates input with Zod
+- Includes honeypot spam protection
+- Returns field-specific validation errors
+- Stores enquiries in Supabase `messages` table
+
+## License
+
+Private — Arvindhan SM
